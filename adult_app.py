@@ -34,7 +34,7 @@ st.markdown(
 header_col1, header_col2 = st.columns([4, 1])
 
 with header_col1:
-    st.title("🩺Census Income Prediction App")
+    st.title("💰Census Income Prediction App")
     
     st.write("""
     Hi! I'm Sulayman Bah.
