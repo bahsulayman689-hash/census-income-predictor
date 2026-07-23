@@ -9,7 +9,7 @@ An end-to-end Machine Learning web application that predicts whether an individu
 
 You can interact with the fully deployed, live version of this artificial intelligence application directly in your web browser:
 
-👉 **[Launch Live Web Application](https://streamlit.app)** 🚀
+👉 **[Launch Live Web Application](https://census-income-predictor-bah.streamlit.app/)** 🚀
 
 *(Note: Replace the link above with your actual live URL once deployed to Streamlit Community Cloud!)*
 
