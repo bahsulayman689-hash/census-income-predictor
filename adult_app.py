@@ -10,9 +10,9 @@ from sklearn.tree import DecisionTreeClassifier
 # 1. PAGE SETUP & GREEN SIDEBAR THEME
 # --------------------------------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Adult Income Classifier", 
+    page_title="💰Adult Income Classifier", 
     page_icon="💰", 
-    layout="centered"
+    layout="wide"
 )
 
 st.markdown(
@@ -31,7 +31,25 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+header_col1, header_col2 = st.columns([4, 1])
 
+with header_col1:
+    st.title("🩺Census Income Prediction App")
+    
+    st.write("""
+    Hi! I'm Sulayman Bah.
+    I'm a mechine learning and deep learning enginner.
+    I build Machine Learning and
+    Deep Learning applications
+    using Python and Streamlit.
+    """)
+with header_col2:
+    if os.path.exists("euro.png"):
+        st.image("euro.png", width=200)
+    else:
+        st.info("💡 Logo asset not found.")
+    
+st.markdown("---")
 # --------------------------------------------------------------------------------------------------
 # 2. SIDEBAR CONTENT (LOGO, IMAGE & METADATA)
 # --------------------------------------------------------------------------------------------------
